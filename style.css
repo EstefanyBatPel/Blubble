@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-image: url(images/ricardo-resende-62gBYKT7U5s-unsplash.jpg);
+    backdrop-filter: blur(20px);
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+.frame{
+    margin: 100px;
+    width: 55vw;
+    height: 35vw;
+    display: grid;
+    place-items: center;
+    border: 1px #fff solid;
+}
+
+.circle{
+    width: 50vw;
+    height: 30vw;
+    background-image: url(images/ricardo-resende-62gBYKT7U5s-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+
+.dark {
+    background-color: black;
+    width: 100vw;
+    height: 50vw;
+    display: grid;
+    place-items: center;
+}
+
+.frame2 {
+    margin: 100px;
+    width: 55vw;
+    height: 35vw;
+    display: grid;
+    place-items: center;
+    border: 1px #fff solid;
+}
+
+.circle2 {
+    width: 50vw;
+    height: 30vw;
+    background-image: url(images/ricardo-resende-62gBYKT7U5s-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+
+.nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buttoms{
+    display: flex;
+    margin: 10px 30px 0px;
+}
+
+.transparent {
+    color: #fff;
+    margin: 0px 10px;
+}
+
+hr{
+    width: 100vw;
+}
